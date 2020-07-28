@@ -1,0 +1,154 @@
+------------css------------
+.carouselContainer{
+    margin-top: 0px;
+    width: 550px;
+    height: auto;
+    
+}
+.loginForm{
+    position: absolute;
+    text-align: center;
+    right: 150px;
+    top: 100px;
+    height: 500px;
+    width: 400px;
+    padding: 10px;
+}
+.loginForm h1{
+    color: white;
+    letter-spacing: 3px;
+}
+.loginForm input{
+    background-color: rgb(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+    color: white;
+    border: 0px solid;
+    border-bottom: 1px solid white;
+}
+body{
+    background: linear-gradient(to top left, #000000 2%, #cc0066 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+}
+#t.card-body{
+    text-align: center;
+    background-color:#ff99cc;
+    color: black;
+}
+#s.card-body{
+    text-align: center;
+    background-color: #64565d;
+    color: white;
+}
+#j.card-body{
+    text-align: center;
+    background-color: #aa183d;
+    color: white;
+}
+.card-body Button{
+    position: relative;
+    left: 200px;
+    border: 2px solid white;
+    background-color: rgb(226, 23, 124);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+---------------html----------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" text="text/css" href="landing.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<!-- <ul class="nav justify-content-end">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
+   -->
+    <!-- <div class="carouselContainer">
+<div id="demo" class="carousel slide" data-ride="carousel" data-interval="2000">
+
+ Indicators -->
+<!-- <ul class="carousel-indicators">
+  <li data-target="#demo" data-slide-to="0" class="active"></li>
+  <li data-target="#demo" data-slide-to="1"></li>
+  <li data-target="#demo" data-slide-to="2"></li>
+</ul> -->
+
+<!-- The slideshow -->
+<!-- <div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="vmdbvo149fh31.jpg" alt="Los Angeles" width="100%" height="493px">
+    <div class="card-body" id="t">
+    <h4 class="card-title"><text style="font-size: 30px">Taylor Swift</text></h4>
+    <p class="card-text"><text style="font-size: 20px">Changes</text></p>
+    <a href="#"><button><i class="fa">&#xf04b;</i></button></a>
+  </div>
+  </div>
+  <div class="carousel-item">
+    <img src="selena_gomez-rare_s.jpg" alt="Chicago" width="100%" height="493px">
+    <div class="card-body" id="s">
+    <h4 class="card-title"><text style="font-size: 30px">Salena Gomez</text></h4>
+    <p class="card-text"><text style="font-size: 20px">Rare</text></p>
+    <a href="#"><button><i class="fa">&#xf04b;</i></button></a>
+  </div>
+  </div>
+  <div class="carousel-item">
+    <img src="5e46d04896eee679e00c4354.jpg" alt="New York" width="100%" height="493px">
+    <div class="card-body" id="j">
+    <h4 class="card-title"><text style="font-size: 30px">Justin Bieber</text></h4>
+    <p class="card-text"><text style="font-size: 20px">Changes</text></p>
+    <a href="#"><button><i class="fa">&#xf04b;</i></button></a>
+  </div>
+  </div>
+</div> -->
+
+<!-- Left and right controls -->
+<!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</a>
+<a class="carousel-control-next" href="#demo" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</a>
+</div>
+    </div>
+
+    <div class="loginForm">
+        <h1>Login</h1>
+        <form action="" method="post">
+            <input type="text" name="userName" />
+            <br>
+            <input type="password" name="password" />
+            <br>
+            <button type="submit">Login</button>
+        </form>
+    </div> -->
+
+    <div class="con">
+    
+    </div>
+</body>
+</html>
